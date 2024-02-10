@@ -1,6 +1,6 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
-import logo from "../Logo/logo.webp";
-import { px } from "framer-motion";
+import logo from "../assets/Logo/logo.webp";
+
 import ColorModeSwitch from "./ColorModeSwitch";
 
 const NavBar = () => {
