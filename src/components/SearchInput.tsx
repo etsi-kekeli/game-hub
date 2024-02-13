@@ -13,7 +13,7 @@ const SearchInput = ({ onSearch }: Props) => {
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        ref.current?.value && onSearch(ref.current?.value);
+        ref.current && onSearch(ref.current?.value || "");
       }}
     >
       <InputGroup>
